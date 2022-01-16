@@ -23,23 +23,7 @@ Before refactoring, I began by copying the code that needed to create the input 
 In the original code shared has two inner iterations.
 As part refactoring, I elimianated the need and made it simple.
 That saved time and resources of iterating over larger records.
-
-        For i = 2 To RowCount
-        
-        // logic to calculate
-        
-         Next i
-  
-   
-   and
-    
-      For i = 0 To 11
       
-        // assign output values into the analysis worksheet
-        
-      Next i
-      
-
  
 ### Summary
 
